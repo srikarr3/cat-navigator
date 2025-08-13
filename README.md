@@ -4,7 +4,7 @@ A comprehensive CAT exam preparation platform featuring percentile predictors, I
 
 ## 🚀 Live Demo
 
-🔗 [View Live Demo](YOUR_LIVE_SITE_URL_HERE)
+🔗 [View Live Demo](https://cat-navigator.vercel.app/)
 
 ## ✨ Features
 
