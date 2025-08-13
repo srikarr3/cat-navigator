@@ -1,0 +1,40 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8fafc; /* Light gray background */
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ec4899; /* Pink-500 */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #db2777; /* Slightly darker pink on hover */
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ec4899 #f8fafc;
+}
+
+/* For dark mode support */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #1e293b; /* Darker background for dark mode */
+  }
+  
+  * {
+    scrollbar-color: #ec4899 #1e293b;
+  }
+}
